@@ -1,0 +1,1 @@
+<h1>Page <?php echo $title;?> not found!</h1>

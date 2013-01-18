@@ -1,0 +1,50 @@
+.clearfix:after {
+	clear: both;
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+body{
+	color: #000;
+	margin: 0px 0px 0 0px;
+	font-family:Georgia;
+	font-size:12px;
+	background: url(../images/bg.png) top left;
+	border-top:6px solid #9A3F3F;
+}
+h1{
+	color: #9A3F3F;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 13px;
+    text-align: center;
+    text-transform: capitalize;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+#header{padding:3px;background:url("../images/top-bg-tile.png");height:148px;}
+#footer{height:60px;}
+#content{height:300px;}
+
+.reg_form {padding:22px;-moz-border-radius:10px;width:380px;margin:auto;margin-top: 10px;background:#F3F0E5;}
+.reg_form ul li {margin:0 0 5px 0;display:block;}
+.reg_form ul li label{float: left;color:#444;font-size:13px;margin-bottom:4px;}
+.reg_form ul li input{border:1px #D0C289 solid;padding:2px 5px 0;width:368px;font-size:13px;height:25px;}
+.reg_form .sign_up{-moz-border-radius:4px 4px 4px 4px;-moz-box-shadow:0 1px 1px #fff;background:#F4EBD4;border: 1px solid #D0C289;font-size: 13px;width:100px;font-style: italic;color: #53491E;height: 24px;text-align: center;padding:0;margin-top:3px;}
+
+.reg_form ul li .error{color: #9A3F3F;float:right;margin-right:2px;}
+
+.errorMessages{font-size:16px;font-family:Georgia;border:1px #E6E6E6 solid;padding:15px;color:#444;background:#EDEDE7;-moz-box-shadow:0 2px 4px #E6E6E6;border-bottom:2px solid #fff;}
